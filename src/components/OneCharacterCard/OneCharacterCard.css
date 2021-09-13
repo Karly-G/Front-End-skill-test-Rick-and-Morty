@@ -1,0 +1,30 @@
+.one-card{
+    margin: 30px;
+    display: flex;
+}
+
+.one-character-card{
+    padding: 0 100px;
+    width: 500px;
+    font-size: xx-large;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.img-one-character{
+    width: 400px;
+    height: 300px;
+    margin-left: 150px;
+}
+
+.arrow{
+    width: 50px;
+    margin: 30px;
+}
+
+.fav{
+    margin-left: 1050px;
+    width: 50px;
+}

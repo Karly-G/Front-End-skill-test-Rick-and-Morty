@@ -1,8 +1,15 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom'
 import './CharacterCard.css';
 
 
 function CharacterCard ({characters = []}){
+
+    let history = useHistory();
+
+    function handleClick() {
+        history.push('/oneCharacterCard');
+    }
 
 
     return(
@@ -10,7 +17,7 @@ function CharacterCard ({characters = []}){
             {characters.map((item, index) => (
                 <div key={index} className="characterCard">
                     <div>
-                        <img src={item.image} alt="personaje" />
+                        <img src={item.image} alt="personaje" onClick={handleClick} />
                     </div>
                     <div className="dataCard">
                         <ul>

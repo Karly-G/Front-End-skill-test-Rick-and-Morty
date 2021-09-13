@@ -4,7 +4,7 @@ Hola y bienvenidx fanático de Rick y Morty, en esta App encontrarás a todos lo
 
 ¡Anímate a repasar con nosotros algunos de lo más alocados, surrealistas, irreverentes, absurdos y maravillosos personajes de la mejor serie de animación de todo el multiverso!
 
-!![](https://media.giphy.com/media/l41lI4bYmcsPJX9Go/giphy.gif)
+![](https://media.giphy.com/media/l41lI4bYmcsPJX9Go/giphy.gif)
 
 Lo que podrás encontrar en el listado de cada uno de los personajes es:
 
@@ -25,6 +25,6 @@ Pues aún no es todo, puedes visitar nuestra App desde tu computadora o teléfon
 
 #### Recuerda que los proyectos de Grut Studio siempre están en constante mejora, así que no te pierdas las próximas actualizaciones en dónde añadiremos más funcionalidad. 
 
-!![](https://media.giphy.com/media/l41JU9pUyosHzWyuQ/giphy.gif)
+![](https://media.giphy.com/media/l41JU9pUyosHzWyuQ/giphy.gif)
 
 Proyecto creado como prueba técnica para Grut Studio by Karla González©. 

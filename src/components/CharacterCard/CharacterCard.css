@@ -1,0 +1,82 @@
+.characterCard{
+    display: flex;
+    max-width: 500px;
+    margin: 15px 0 15px 120px;
+    border: none;
+    box-shadow: 1px 1px 3px #212D5E; 
+    padding: 0;
+}
+
+.dataCard{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.btn-favorite{
+    font-family: 'FontAwesome';
+    content: "\f004";
+    font-size: 40px;
+    color: red;
+    top: 150%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: all .5s ease-in-out;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+    margin-left: 90px;
+    fill: rgb(189, 184, 184);
+}
+svg:hover {
+    fill: #FE4A49;
+}
+
+
+img{
+    width: 200px;
+}
+
+/*Aquí estoy trabajando las medidas responsive */
+
+@media only screen and (min-width: 1215px){
+    .characterCard{
+        display: flex;
+        width: 450px;
+    }
+    svg {
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1215px){
+    .characterCard{
+        width: 400px;
+    }
+    svg {
+        margin-left: 5px;
+    }
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 1080px){
+    .characterCard{
+        width: 350px;
+        margin: 15px 0 15px 100px;
+    }
+    svg {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (min-width: 250px) and (max-width: 550px){
+    .characterCard{
+        width: 90%;
+        margin: 5px 0 15px 23px;
+        display: flex;
+    }
+    svg {
+        margin-left: 5px;
+    }
+}

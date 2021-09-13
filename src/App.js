@@ -1,11 +1,12 @@
 import React, {useEffect, useState} from 'react';
-import { BrowserRouter as Router, Switch, Route,  Link} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
-import CharacterCard from './components/Character-Card/CharacterCard';
+import CharacterCard from './components/CharacterCard/CharacterCard';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import Pagination from './components/Pagination/Pagination';
 import Filter from './components/Filter/Filter';
+import OneCharacterCard from './components/OneCharacterCard/OneCharacterCard';
 
 
 function App() {
@@ -53,11 +54,16 @@ function App() {
             <Pagination prev={info.prev} next={info.next} onPrevius={onPrevius} onNext={onNext} />
           </Route>
         </Switch>
-          <Switch>
-            <Route path='/filter'>
-              <Filter />
-            </Route>
-          </Switch>
+        <Switch>
+          <Route path='/filter'>
+            <Filter />
+          </Route>
+        </Switch>
+        <Switch>
+          <Route path='/oneCharacterCard'  exact>
+            <OneCharacterCard />
+          </Route>
+        </Switch>
       </Router>
     </>
   );

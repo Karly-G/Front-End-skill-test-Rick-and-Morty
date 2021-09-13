@@ -27,3 +27,23 @@
     margin: 0 25px;
     font-size: large;
 }
+
+/*Aquí estoy trabajando las medidas responsive */
+
+@media only screen and (max-width: 913px){
+    .search{
+        width: 80%;
+    }
+    .btn-filter{
+        margin: 0 0;
+    }
+}
+
+@media only screen and (min-width: 250px) and (max-width: 550px){
+    .search{
+        width: 80%;
+    }
+    .btn-filter{
+        margin: 0 0;
+    }
+}
