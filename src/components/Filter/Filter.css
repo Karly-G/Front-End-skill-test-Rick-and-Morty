@@ -1,0 +1,34 @@
+.filters{
+    align-items: center;
+}
+
+.option-filter{
+    width: 500px;
+    height: 50px;
+    margin: 5px 10px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 1px 1px 3px #212D5E; 
+    font-size: large;
+    color: black;
+    padding-left: 30px; 
+    margin: 30px 400px;
+}
+
+
+.btn-search-filter{
+    background-color: #FE4A49;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    height: 50px;
+    width: 300px;
+    margin: 20px 50px 20px 500px;
+    font-size: large;
+}
+
+.return{
+    width: 100px;
+    margin-left: 350px;
+}

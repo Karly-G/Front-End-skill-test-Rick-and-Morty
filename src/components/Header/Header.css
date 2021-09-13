@@ -1,0 +1,25 @@
+.header{
+    background: #212D5E;
+    height: 100px;
+    padding: 5px 30px;
+    color: white;
+}
+
+.app-logo{
+    width: 250px;
+    padding: 10px 0;
+    animation-duration: 3s;
+    animation-name: app-logo-movement;
+}
+
+@keyframes app-logo-movement {
+    from {
+    margin-left: 100%;
+    width: 300%
+    }
+
+    to {
+    margin-left: 0%;
+    width: 100%;
+    }
+}
