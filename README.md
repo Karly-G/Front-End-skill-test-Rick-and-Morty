@@ -25,6 +25,6 @@ Pues aún no es todo, puedes visitar nuestra App desde tu computadora o teléfon
 
 #### Recuerda que los proyectos de Grut Studio siempre están en constante mejora, así que no te pierdas las próximas actualizaciones en dónde añadiremos más funcionalidad. 
 
-![](https://media.giphy.com/media/l41JU9pUyosHzWyuQ/giphy.gif)
+![](https://media.giphy.com/media/72EjRhsNqkzDiwE6TC/giphy.gif)
 
 Proyecto creado como prueba técnica para Grut Studio by Karla González©. 
